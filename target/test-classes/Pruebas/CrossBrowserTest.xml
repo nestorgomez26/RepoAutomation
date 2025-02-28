@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="PruebasenChrome">
+  <parameter name= "navegador" value = "Chrome"/>
+    <classes>
+      <class name="Pruebas.CrossBrowserTest"/>
+    </classes>
+    
+      </test> <!-- Test -->
+      <test name="PruebasenFirefox">
+        <parameter name= "navegador" value = "Firefox"/>
+        <classes>
+      <class name="Pruebas.CrossBrowserTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
